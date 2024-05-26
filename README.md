@@ -26,3 +26,12 @@ This is a simple URL shortener application built with Flask. The application all
    ```bash
    git clone https://github.com/abdel2000-dply/flask-url-shortener
    cd flask-url-shortener
+
+### Runing the app
+Install the required dependencies
+
+pip install -r requirements.txt
+
+# Run the Flask application
+
+python -m app.app
