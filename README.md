@@ -1,5 +1,8 @@
 # Flask URL Shortener
 
+![download](https://github.com/abdel2000-dply/flask-url-shortener/assets/75086476/b68ad8af-b552-4b75-93a3-dc17a8dc55a8)
+
+
 ## Introduction
 This is a simple URL shortener application built with Flask. The application allows users to shorten long URLs and redirect from the shortened URLs to the original URLs. This project serves as a hands-on exercise to practice backend development with Flask.
 
