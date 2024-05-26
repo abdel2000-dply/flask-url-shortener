@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+""" __init__.py
+"""
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
