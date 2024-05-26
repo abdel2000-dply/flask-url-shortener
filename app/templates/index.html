@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>URL Shortener</h1>
+      <form action="/shorten_url" method="post">
+        <input type="text" name="original_url" placeholder="Enter a URL" required />
+        <button type="submit">Shorten</button>
+      </form>
+      <div class="shortened" {% if not shortened_url %}style="display: none"{% endif %}>
+        <h2>Shortened URL</h2>
+        <a href="{{ shortened_url }}">{{ shortened_url }}</a>
+      </div>
+    </div>
+  </body>
+</html>
