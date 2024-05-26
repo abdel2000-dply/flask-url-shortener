@@ -6,7 +6,7 @@ This is a simple URL shortener application built with Flask. The application all
 ## Features
 - Shorten long URLs
 - Redirect from shortened URLs to original URLs
-- (Optional) Track the number of times a shortened URL is accessed
+- (in progress) Track the number of times a shortened URL is accessed
 
 ## Technologies Used
 - Python
@@ -17,8 +17,9 @@ This is a simple URL shortener application built with Flask. The application all
 ## Getting Started
 
 ### Prerequisites
-- Python 3.x
+- Python 3.8
 - pip (Python package installer)
+- Flask
 
 ### Installation
 1. Clone the repository:
